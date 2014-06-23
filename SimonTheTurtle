@@ -13,4 +13,4 @@ simon.left(135)
 
 simon.goto(65,65)
 
-# simon.scrpos(50,50)
+simon.setpos(70,70)
