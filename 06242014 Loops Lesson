@@ -1,0 +1,13 @@
+# class lesson on loops 6/24/2014
+
+import turtle
+alex = turtle.Turtle()
+listOfsides = [ 0, 1, 2, 3, 4 ]
+# the values in the list are irrelevant to the result
+# the list is just... a list of STUFF. it doesn't really matter
+
+for s in listOfsides:
+	alex.forward (100)
+	alex.left (72)
+	
+alex.setpos (150,150)
