@@ -1,0 +1,85 @@
+# 6/24/2014 class assignment
+# Rules:
+# 	1) include an "i"
+# 	2) at least 4 letters long
+# 	3) each letter a different color
+
+import turtle
+al = turtle.Turtle()
+
+al.color("blue")
+al.setposition(150,0)
+
+# the letter "y"
+al.right(120)
+al.forward(100)
+al.right(90)
+al.forward(10)
+al.left(90)
+al.backward(50)
+al.left(60)
+al.backward(45)
+al.left(55)
+al.forward(10)
+al.right(55)
+al.forward(35)
+al.left(120)
+al.forward(35)
+al.right(58)
+al.forward(10)
+
+al.color("green")
+al.setpos(60,0)
+
+# the letter "l"
+al.left(90)
+al.forward(50)
+al.left(90)
+al.forward(10)
+al.right(90)
+al.backward(100)
+al.right(90)
+al.forward(10)
+al.left(90)
+al.forward(50)
+
+al.color("orange")
+al.setpos(10,-50)
+
+# the letter "i"
+al.forward(50)
+al.left(90)
+al.forward(10)
+al.right(90)
+al.backward(50)
+al.right(90)
+al.forward(10)
+al.left(90)
+al.setpos(10,30)
+al.backward(10)
+al.left(90)
+al.forward(10)
+al.right(90)
+al.forward(10)
+al.right(90)
+al.forward(10)
+al.left(90)
+
+al.color("red")
+al.setpos(-40,-50)
+
+# the letter "L"
+al.left(90)
+al.forward(50)
+al.right(90)
+al.forward(100)
+al.right(90)
+al.forward(10)
+al.right(90)
+al.forward(90)
+al.left(90)
+al.forward(40)
+al.right(90)
+al.forward(10)
+
+al.setpos(500,500)
