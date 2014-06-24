@@ -1,0 +1,12 @@
+# loops...
+
+import turtle
+alex = turtle.Turtle()
+
+i = 100
+
+for i in range (100):
+	alex.forward(2)
+	alex.right(65)
+	alex.forward(2)
+	alex.left(60)
