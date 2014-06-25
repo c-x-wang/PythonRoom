@@ -1,1 +1,6 @@
-# author: cindywang222
+# 6/25/2014 loops lesson
+
+import turtle
+al = turtle.Turtle()
+
+something...
