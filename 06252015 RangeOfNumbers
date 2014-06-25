@@ -1,0 +1,13 @@
+# 6/25/2014 loops lesson
+
+import turtle
+alex = turtle.Turtle()
+
+listOfColor = ["blue", "red", "purple", "green", "yellow", "blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow", "blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow", "blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow", "blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow", "blue", "red", "purple", "green", "yellow", "blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow","blue", "red", "purple", "green", "yellow" ]
+
+for c in listOfColor :
+	alex.color(c)
+	alex.forward (15)
+	alex.left (359)
+	
+alex.setpos (150,150)
