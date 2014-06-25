@@ -1,0 +1,12 @@
+import turtle
+alex = turtle.Turtle()
+
+rangeOfNumbers = range(0, 100)
+listOfColors = [ "red", "blue", "orange", "green" ]
+
+for s in rangeOfNumbers :
+	for c in listOfColors:
+		alex.color(c)
+		alex.forward(s)
+		alex.left(95)
+	alex.right(8)
