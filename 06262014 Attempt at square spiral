@@ -1,0 +1,15 @@
+# 6/26/14 
+
+import turtle
+al = turtle.Turtle()
+
+theRange = range (0, 360)
+x = 5
+
+for r in theRange:
+	al.forward(x + 5)
+	al.left(90)
+	break
+	
+	if (x == 200):
+		break
