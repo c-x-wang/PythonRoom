@@ -1,0 +1,24 @@
+# 6/26/14 
+
+import turtle
+al = turtle.Turtle()
+
+circleRange = range (0, 360)
+colorList = ["red", "purple", "green", "yellow"]
+x = 50
+
+#for c in colorList:
+#		al.color(c)
+	
+for y in circleRange:
+	y = y - 5
+	break
+for c in colorList:
+	al.color(c)
+	break
+for r in circleRange:
+	al.forward(x - y)
+	break
+
+			
+			
