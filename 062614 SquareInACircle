@@ -1,0 +1,23 @@
+# 6/26/14 
+
+import turtle
+al = turtle.Turtle()
+
+circleRange = range (0, 360)
+
+# the square
+al.forward(80)
+al.left(90)
+al.forward(80)
+al.left(90)
+al.forward(80)
+al.left(90)
+al.forward(80)
+al.left(90)
+
+# the circle, outside the square
+al.right(45)
+
+for c in circleRange:
+	al.forward(1)
+	al.left(1)
