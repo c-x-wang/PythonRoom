@@ -1,7 +1,7 @@
 import turtle
 alex = turtle.Turtle()
 
-rangeOfNumbers = range(0, 100)
+rangeOfNumbers = range(0, 50)
 listOfColors = [ "red", "blue", "orange", "green" ]
 
 for s in rangeOfNumbers :
