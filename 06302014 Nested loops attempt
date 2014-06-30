@@ -12,11 +12,11 @@ y = -95
 for n in rangeOfNumbers:
 	al.forward(50)
 	al.left(90)
-	while (2 > 1):
 	
+	while (2 > 1):
 		al.setpos(x, y)
 		x = x + 5
 		y = y + 5
 	
-	if (x == 50):
-		break
+		if (x == 50):
+			break
