@@ -1,0 +1,44 @@
+# 6/30/14
+# squares with a for loop
+
+import turtle
+al = turtle.Turtle()
+
+rangeOfNumbers = (0, 1000)
+moreNumbers = (0, 100)
+
+al.setpos(-100, -100)
+x = -95
+y = -95
+
+for n in rangeOfNumbers:
+	al.forward(50)
+	al.left(90)
+	al.forward(50)
+	al.left(90)
+	al.forward(50)
+	al.left(90)
+	al.forward(50)
+	al.left(90)
+	al.setpos(x, y)
+	x = x + 5
+	y = y + 5
+	
+	for m in moreNumbers:
+		
+
+#while (2 > 1):
+#	al.forward(50)
+#	al.left(90)
+#	al.forward(50)
+#	al.left(90)
+#	al.forward(50)
+#	al.left(90)
+#	al.forward(50)
+#	al.left(90)
+#	al.setpos(x, y)
+#	x = x + 5
+#	y = y + 5
+#	
+#	if (x == 100):
+#		break
