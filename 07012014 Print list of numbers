@@ -1,0 +1,9 @@
+# 7/1/14 lesson/workspace
+# printing a list of numbers
+
+n = int(input("Enter a number"))
+
+rangeOfNumbers = range (1, n+1)
+
+for number in rangeOfNumbers:
+	print number
