@@ -1,0 +1,33 @@
+# 7/1/14 lesson/workspace
+# determining whether a number is prime or composite
+
+n = int(input("Enter a number")) # creates pop-up, which allows input of a number
+
+rangeOfNumbers = range (2, n) # the factors which will be tested for "n"
+isPrime = True
+
+for number in rangeOfNumbers:
+	if n % number == 0:
+		isPrime = False
+
+
+if isPrime:
+	print "The number is prime."
+else:
+	print "The number is not prime."
+
+
+
+
+
+
+
+#		print "The value of 'n' is not prime, it has a factor."
+#		print factor
+
+# n = 5077
+# print n
+# print "I think 'n' is prime."
+
+# print 63 / 5
+# print 63 % 5
