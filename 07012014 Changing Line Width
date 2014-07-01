@@ -1,0 +1,8 @@
+# 7/1/14 workspace
+
+import turtle
+al = turtle.Turtle()
+
+al.color("green")
+al.width(100)
+al.forward(100)
