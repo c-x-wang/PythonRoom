@@ -1,0 +1,10 @@
+# 7/2/14
+# name input
+
+name = input ("What's your name?")
+
+if name == "Yourname":
+	print "Welcome,"
+else:
+	print "Please GO AWAY,"
+print name
