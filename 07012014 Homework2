@@ -1,0 +1,17 @@
+# 7/1/14 homework
+# print all prime numbers from 0 to inputted number
+
+n = int(input("Enter a number"))
+
+for numberToTest in range(0, n + 1):
+	rangeOfFactors = range (2, numberToTest)
+	if (numberToTest <= 1):
+		continue
+	isPrime = True
+
+	for number in rangeOfFactors:
+		if (numberToTest % number) == 0:
+			isPrime = False
+			break
+	if isPrime:
+		print numberToTest
