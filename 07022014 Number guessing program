@@ -1,0 +1,18 @@
+# 7/2/14
+# number guessing program
+
+import random
+answer = random.randint(1, 100)
+rangeOfGuesses = range (0, 10)
+
+guess = int (input ("What is your guess? You have 10 guesses. (Guess between the numbers 1 and 100.)"))
+
+for number in rangeOfGuesses:
+	if guess < answer:
+		guess = int (input ("You guessed too low. Guess again."))
+	if guess > answer:
+		guess = int (input ("You guessed too high. Guess again."))
+if guess == answer: 
+	print "You guessed the right number! :)"
+else:
+	print "Sorry, you ran out of guesses. :("
