@@ -1,0 +1,23 @@
+# 7/1/14 homework
+# print all prime numbers from 2 to inputted number
+
+n = 7 #int(input("Enter a number"))
+
+rangeOfPrimes = range (2, n + 1)
+rangeOfFactors = range (1, n)
+isPrime = True
+
+
+for factor in rangeOfFactors:
+	for number in rangeOfPrimes:
+		if number % factor != 0:
+#			isPrime = False
+#		else:
+			print number
+
+
+
+#if isPrime:
+#	print number #"The number is prime."
+#else:
+#	print "The number is not prime."
