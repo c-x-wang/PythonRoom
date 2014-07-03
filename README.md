@@ -1,4 +1,4 @@
-PythonRoom
+Python 1
 ==========
 
-Ohlone for Kids: Coding with Python class
+Ohlone for Kids: Coding with Python 1
