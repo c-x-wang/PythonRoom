@@ -1,0 +1,9 @@
+# 7/3/14
+# adding numbers in a range
+
+listOfNumbers = range (20, 101, 20)
+total = 0
+
+for n in listOfNumbers:
+	total = total + n
+	print total
